@@ -767,7 +767,7 @@
   const defaultOptions = {
       audio: { direction: 'sendrecv', enabled: true },
       video: { direction: 'sendrecv', enabled: true },
-      iceServers: [{ urls: 'stun:stun.l.google.com:19302' }],
+      iceServers: [{ urls: 'stun:stun:44.237.5.233:3478' }],
       clientId: randomString(17)
   };
   /**
